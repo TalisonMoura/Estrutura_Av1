@@ -37,8 +37,8 @@ public class Questao2 {
                 continue;
             }
 
-            if(id <= 5) {
-                estante[armario][prateleira]++;
+            if(id >= 0 && id <= 5) {
+                estante[armario][prateleira] = id;
                 System.out.println("O produto foi adicionado!");
             }
 
